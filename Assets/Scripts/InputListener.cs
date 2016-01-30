@@ -14,9 +14,13 @@ public class InputListener : MonoBehaviour
 	
 	private void Start()
 	{
-		keys = new KeyCode[1];
+		keys = new KeyCode[5];
 		
-		keys[0] = KeyCode.Escape;
+		keys[0] = KeyCode.W;
+		keys[1] = KeyCode.A;
+		keys[2] = KeyCode.S;
+		keys[3] = KeyCode.D;
+		keys[4] = KeyCode.Space;
 	}
 	
 	private void Update()
