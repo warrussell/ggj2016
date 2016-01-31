@@ -1,0 +1,8 @@
+Exporting---
+
+If you want to re export any mesh. Make sure your maya units are in CM as well that your FBX export is set to CM.
+Use FBX version 2013 just encase. There's a dropdown for it in the export options
+
+--Unity Setup
+
+All of the geos will come in at their proper scale and placement in the scene if their positions are all (0,0,0)
