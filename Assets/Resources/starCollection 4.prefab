@@ -13,6 +13,7 @@ GameObject:
   - 23: {fileID: 2322018}
   - 114: {fileID: 11472518}
   - 108: {fileID: 10801952}
+  - 82: {fileID: 8214454}
   m_Layer: 0
   m_Name: Star 4-1
   m_TagString: Star
@@ -48,6 +49,7 @@ GameObject:
   - 23: {fileID: 2397438}
   - 114: {fileID: 11466282}
   - 108: {fileID: 10880816}
+  - 82: {fileID: 8203258}
   m_Layer: 0
   m_Name: Star 4-2
   m_TagString: Star
@@ -159,6 +161,154 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191784}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &8203258
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 191784}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &8214454
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142454}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!108 &10801952
 Light:
   m_ObjectHideFlags: 1
@@ -236,10 +386,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b7c9a39298b4b47b9e676393fb74b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _selectedColor: {r: 1, g: 1, b: 1, a: 0.741}
-  _connectedColor: {r: 0.9034482, g: 1, b: 0, a: 0.728}
-  _defaultColor: {r: 0.29411763, g: 0.2989859, b: 1, a: 0.734}
-  _lookedAtColor: {r: 0.97794116, g: 0.10786115, b: 0.7739224, a: 0.753}
+  _selectedColor: {r: 0, g: 1, b: 0, a: 1}
+  _connectedColor: {r: 1, g: 1, b: 0, a: 1}
+  _defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  _lookedAtColor: {r: 1, g: 0, b: 0, a: 1}
+  _lightPopIntensity: 0.17
+  _lightDefaultIntensity: 0.12
+  _sfxPulses:
+  - {fileID: 8300000, guid: e86163c4cd4cdbb40aad37af5d4857db, type: 3}
+  - {fileID: 8300000, guid: e26c258c3bdfe244692c4304ea87ac41, type: 3}
+  - {fileID: 8300000, guid: 04c2f571b1eaea145b3256b602c58abb, type: 3}
+  - {fileID: 8300000, guid: ab612b7fccdb6bb4da236ace6c390658, type: 3}
+  - {fileID: 8300000, guid: 89dc95361d42f8a4185ea2b94a8402c9, type: 3}
 --- !u!114 &11472518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -251,10 +409,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0b7c9a39298b4b47b9e676393fb74b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _selectedColor: {r: 1, g: 1, b: 1, a: 0.741}
-  _connectedColor: {r: 0.9034482, g: 1, b: 0, a: 0.728}
-  _defaultColor: {r: 0.29411763, g: 0.2989859, b: 1, a: 0.734}
-  _lookedAtColor: {r: 0.97794116, g: 0.10786115, b: 0.7739224, a: 0.753}
+  _selectedColor: {r: 0, g: 1, b: 0, a: 1}
+  _connectedColor: {r: 1, g: 1, b: 0, a: 1}
+  _defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  _lookedAtColor: {r: 1, g: 0, b: 0, a: 1}
+  _lightPopIntensity: 0.17
+  _lightDefaultIntensity: 0.12
+  _sfxPulses:
+  - {fileID: 8300000, guid: e86163c4cd4cdbb40aad37af5d4857db, type: 3}
+  - {fileID: 8300000, guid: e26c258c3bdfe244692c4304ea87ac41, type: 3}
+  - {fileID: 8300000, guid: 04c2f571b1eaea145b3256b602c58abb, type: 3}
+  - {fileID: 8300000, guid: ab612b7fccdb6bb4da236ace6c390658, type: 3}
+  - {fileID: 8300000, guid: 89dc95361d42f8a4185ea2b94a8402c9, type: 3}
 --- !u!135 &13544320
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -287,6 +453,10 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
+      propertyPath: _sfxPulses.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: m_LocalScale.x
       value: 0.5
       objectReference: {fileID: 0}
@@ -316,7 +486,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _selectedColor.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _selectedColor.g
@@ -324,15 +494,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _selectedColor.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _selectedColor.a
-      value: 0.741
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _connectedColor.r
-      value: 0.9034482
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _connectedColor.g
@@ -344,15 +514,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _connectedColor.a
-      value: 0.728
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _defaultColor.r
-      value: 0.29411763
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _defaultColor.g
-      value: 0.2989859
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _defaultColor.b
@@ -360,7 +530,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _defaultColor.a
-      value: 0.734
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Type
@@ -380,24 +550,60 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _lookedAtColor.r
-      value: 0.97794116
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _lookedAtColor.g
-      value: 0.10786115
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _lookedAtColor.b
-      value: 0.7739224
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: _lookedAtColor.a
-      value: 0.753
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 933622644fd59324d83136859caa0c0b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _sfxPulses.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: e86163c4cd4cdbb40aad37af5d4857db, type: 3}
+    - target: {fileID: 0}
+      propertyPath: _sfxPulses.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e26c258c3bdfe244692c4304ea87ac41, type: 3}
+    - target: {fileID: 0}
+      propertyPath: _sfxPulses.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 04c2f571b1eaea145b3256b602c58abb, type: 3}
+    - target: {fileID: 0}
+      propertyPath: _sfxPulses.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: ab612b7fccdb6bb4da236ace6c390658, type: 3}
+    - target: {fileID: 0}
+      propertyPath: _sfxPulses.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 89dc95361d42f8a4185ea2b94a8402c9, type: 3}
+    - target: {fileID: 0}
+      propertyPath: _lightPopIntensity
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _lightDefaultIntensity
+      value: 0.12
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 175972}

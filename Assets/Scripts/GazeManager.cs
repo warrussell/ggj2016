@@ -22,7 +22,6 @@ public class GazeManager : MonoBehaviour
 
 	private void HandleInputUpEvent (KeyCode key)
 	{
-		Debug.Log("Input Up!");
 		if (key == KeyCode.Space) {
 			if (_targetObject != null) {
 				GameManager.Instance.HandleSelected(_targetObject);
@@ -52,7 +51,6 @@ public class GazeManager : MonoBehaviour
 					_targetObject = hit.transform;
 					if (lookingAtStarted != null) {
 						lookingAtStarted(_targetObject);
-						Debug.Log("Hit " + hit.transform.name);
 						Debug.DrawRay(origin, direction * 2);
 					}
 					_targetObject = hit.transform;
@@ -66,7 +64,7 @@ public class GazeManager : MonoBehaviour
     			//stopped looking at old object
     			if (lookingAtStopped != null) lookingAtStopped(_targetObject);
     		}
-			//_targetObject = null;
+			_targetObject = null;
 		}
 	}
 }
